@@ -1,0 +1,105 @@
+.container__bestselling {
+  .bestselling {
+    padding: 16px 0;
+
+    .bestselling__head {
+      padding: 0 8px;
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      
+
+      .bestselling__others__button{
+        all: unset;
+        .bestselling__others {
+            padding-left: 16px;
+            color: #19bfd3;
+            font-size: 1.4rem;
+            font-weight: 700;
+            line-height: 2.15;
+        }
+      }
+
+      .bestselling__title {
+        display: flex;
+        align-items: center;
+
+        p {
+          font-size: 2.1rem;
+          font-weight: 500;
+          line-height: 2.1;
+          color: #0c0c0c;
+        }
+
+        .bestselling__icon {
+          margin-left: 8px;
+        }
+      }
+    }
+
+    .bestselling__products {
+      padding: 0 8px;
+      margin-top: 20px;
+      display: flex;
+      gap: 16px;
+      scrollbar-width: none;
+      overflow-x: auto;
+      overflow-y: hidden;
+
+      .bestselling__products__column {
+        .bestselling__product {
+          display: flex;
+          align-items: center;
+          width: 280px;
+          text-decoration: none;
+
+          .bestselling__product__pic {
+            margin-left: 12px;
+            width: 86px;
+            height: 86px;
+
+            img {
+              width: 86px;
+              height: 86px;
+              display: block;
+            }
+          }
+
+          span {
+            margin-left: 12px;
+            align-items: center;
+            font-size: 2.2rem;
+            font-weight:800;
+            line-height: 86px;
+            color: #19bfd3;
+            font-family: NUMBER__IRANYEKAN;
+          }
+
+          .bestselling__product__text {
+            display: flex;
+
+            p {
+              font-size: 1.1rem;
+              font-weight: 400;
+              line-height: 2.17;
+              color: #3f4064;
+              display: -webkit-box;
+              -webkit-box-orient: vertical;
+              -webkit-line-clamp: 2;
+              overflow: hidden;
+              text-overflow: ellipsis;
+            }
+          }
+        }
+
+        .bestselling__product:nth-child(n + 2) {
+          margin-top: 20px;
+        }
+      }
+    }
+  }
+}
+
+.container__bestselling__1024{
+    display: none;
+}

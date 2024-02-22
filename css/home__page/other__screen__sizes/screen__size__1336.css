@@ -1,0 +1,61 @@
+/* 
+         css list :
+        1. digikala__Services__main
+        1. banners
+*/
+
+/* 1. digikala__Services__main */
+.container__digikala__Services__main {
+  padding: 0;
+  margin: 0 auto;
+  width: 1336px;
+}
+
+/* 1. banners */
+.container__banners {
+  padding: 0;
+  max-width: 1336px;
+  margin: 0 auto;
+}
+
+/* 1. category */
+.container__category {
+  padding: 0;
+  margin: 0 auto;
+  width: 1336px;
+}
+
+/* 1. your visit */
+.container__your__visit {
+  margin: 0 auto;
+  width: 1336px;
+  padding: 0;
+}
+
+/* 1. digiclub */
+.container__digiclub {
+  padding: 0;
+  margin: 0 auto;
+  width: 1336px;
+}
+
+/* 1. readings */
+.container__readings {
+  padding: 0;
+  margin: 0 auto;
+  width: 1336px;
+}
+
+/* 1. amazing supermarket */
+.container__amazing__supermarket {
+  width: 1336px;
+  margin: 0 auto;
+  padding: 0;
+}
+
+/* 1. bestselling */
+.container__bestselling__1024 {
+  width: 1336px;
+  margin: 0 auto;
+  padding: 0;
+}

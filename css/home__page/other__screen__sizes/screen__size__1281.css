@@ -1,0 +1,31 @@
+/* 
+         css list :
+        1. big__slider 
+*/
+
+/* 1. big__slider */
+.container__big__slider {
+  height: 400px;
+
+  .big__slider__swiper .swiper-slide img {
+    height: 400px;
+  }
+}
+
+/* 1. amazing supermarket */
+
+  .amazing__supermarket__discount{
+    display: flex !important;
+    background-color: #39ae00;
+    border-radius: 13px;
+    height: 26px;
+    padding: 0 12px;
+
+    p {
+      color: #fff;
+      font-weight: 700;
+      line-height: 2.15;
+      font-size: 1.4rem;
+    }
+  }
+

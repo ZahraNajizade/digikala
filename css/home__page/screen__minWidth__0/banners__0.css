@@ -1,0 +1,36 @@
+.container__banners {
+  padding: 0 20px;
+
+  .banners {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 16px;
+
+    & a {
+      display: flex;
+
+      .banner__pic {
+        width: 100%;
+
+        img {
+          width: 100%;
+
+          border-radius: 16px;
+          object-fit: cover;
+        }
+      }
+    }
+  }
+}
+
+.four__banner__link {
+  width: calc((100% - 16px) / 2);
+}
+
+.two__banner__link {
+  width: 100%;
+}
+
+.one__banner__link {
+  width: 100%;
+}

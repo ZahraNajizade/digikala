@@ -1,0 +1,48 @@
+.container__digikala__Services__main {
+    
+  .digikala__Services__main {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    padding: 0 12px;
+
+    .digikala__Service__link {
+      margin: 8px 0;
+      width: calc(100% / 4);
+      display: flex;
+      flex-flow: column;
+      align-items: center;
+      justify-content: center;
+      text-decoration: none;
+      color: #3f4064;
+
+      & div {
+        height: 52px;
+
+        img {
+          width: 52px;
+          height: 52px;
+        }
+      }
+
+      span {
+        margin-top: 4px;
+        font-weight: 700;
+        line-height: 2.17;
+        font-size: 1rem;
+        text-align: center;
+      }
+
+      .more__Service__circle {
+        width: 52px;
+        height: 52px;
+        border-radius: 50%;
+        background-color: #f0f0f1;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+      }
+    }
+  }
+}

@@ -1,0 +1,54 @@
+* {
+  margin: 0;
+  padding: 0;
+  outline: none;
+  box-sizing: border-box;
+  font-family: var(--font-family);
+}
+
+html {
+  font-size: 10px;
+  scroll-behavior: smooth;
+}
+
+html,
+body {
+  direction: rtl;
+  font-size: 10px;
+}
+
+.main__columns__space {
+  display: flex;
+  flex-flow: column;
+  row-gap: 16px;
+}
+
+@font-face {
+  font-family: NUMBER__IRANYEKAN;
+  src: url(../font/number/iranyekanweblightfanum.otf);
+  src: url(../font/number/iranyekanweblightfanum.ttf);
+  src: url(../font/number/iranyekanweblightfanum.woff);
+  src: url(../font/number/iranyekanweblightfanum.woff2);
+}
+
+@font-face {
+  font-family: IRANYEKAN;
+  src: url(../font/regular/iranyekanwebregular.woff2);
+}
+
+:root {
+  /* FONT */
+  --font-family: IRANYEKAN, sans-serif;
+
+  /* WIDTH */
+  --full-width: 100%;
+  --page-large-width: 1676px;
+  --page-small-width: 1336px;
+
+  /* BORDER RADIUS */
+  --small-radius: 4px;
+  --medium-radius: 8px;
+  --medium-plus-radius: 12px;
+  --large-radius: 16px;
+}
+

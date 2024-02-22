@@ -1,0 +1,152 @@
+.container__amazing__supermarket {
+  padding: 0 20px;
+
+
+  .amazing__supermarket {
+    background-color: #f0f0f1;
+    border-radius: var(--large-radius);
+    overflow: hidden;
+    padding: 16px 20px;
+    position: relative;
+    
+    
+    .amazing__supermarket__bgimage {
+      background-image: url(../../image/svg/amazing__supermarket__bg.svg);
+      background-position: left center;
+      background-repeat: no-repeat;
+      position: absolute;
+      top: 0;
+      right: 0;
+      left: 0;
+      bottom: 0;
+    
+    }
+    .amazing__supermarket__bgcolor {
+      background-image: linear-gradient(
+        267.6deg,
+        rgba(57, 174, 0, 0.1) 0,
+        rgba(242, 242, 242, 0) 100%
+      );
+      position: absolute;
+      top: 0;
+      right: 0;
+      left: 0;
+      bottom: 0;
+      opacity: 0.3;
+      
+    
+    }
+
+    .top__div{
+      position: relative;
+      z-index: 5;
+
+      .amazing__supermarket__title {
+        display: flex;
+        align-items: center;
+        justify-content: start;
+  
+        .amazing__supermarket__icon img {
+          display: block;
+          width: 40px;
+          height: 38px;
+        }
+  
+        .amazing__supermarket__img {
+          margin: 0 8px;
+  
+          & img {
+            display: block;
+            width: 190px;
+            height: 20px;
+          }
+        }
+  
+        .amazing__supermarket__discount {
+          display: none;
+        }
+  
+        /* .amazing__supermarket__discount {
+          background-color: #39ae00;
+          border-radius: 13px;
+          height: 26px;
+          padding: 0 12px;
+        } */
+      }
+  
+      .amazing__supermarket__products {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        margin-top: 16px;
+  
+        .amazing__supermarket__product {
+          display: flex;
+  
+          .amazing__supermarket__product__link {
+            padding: 8px;
+            margin-left: 8px;
+            border-radius: 50%;
+            background-color: #fff;
+            /* margin-bottom: 16px; */
+  
+            position: relative;
+  
+            .product__img {
+              overflow: hidden;
+              width: 52px;
+              height: 53px;
+  
+              img {
+                display: block;
+                object-fit: cover;
+                object-position: center;
+                width: 100%;
+                height: 100%;
+              }
+            }
+  
+            .product__discount {
+              position: absolute;
+              bottom: 0;
+              right: 0;
+              display: flex;
+              justify-content: center;
+              align-items: center;
+              padding: 0 4px;
+              height: 20px;
+              width: 34px;
+              background-color: #d32f2f;
+              border-radius: var(--large-radius);
+              font-size: 1.1rem;
+              font-weight: 700;
+              line-height: 2.17;
+              color: #fff;
+            }
+          }
+        }
+  
+        & :nth-child(n + 4) {
+          display: none;
+        }
+  
+        .amazing__supermarket__other {
+          padding: 12px;
+          background-color: #fff;
+          border-radius: 50%;
+          
+          span {
+            display: none;
+          }
+  
+          .other__svg {
+            height: 20px;
+          }
+        }
+      }
+    }
+
+    
+  }
+  
+}
