@@ -14,18 +14,31 @@
 
 /* 1. amazing supermarket */
 
-  .amazing__supermarket__discount{
-    display: flex !important;
-    background-color: #39ae00;
-    border-radius: 13px;
-    height: 26px;
-    padding: 0 12px;
+.amazing__supermarket__discount {
+  display: flex !important;
+  background-color: #39ae00;
+  border-radius: 13px;
+  height: 26px;
+  padding: 0 12px;
 
-    p {
-      color: #fff;
-      font-weight: 700;
-      line-height: 2.15;
-      font-size: 1.4rem;
+  p {
+    color: #fff;
+    font-weight: 700;
+    line-height: 2.15;
+    font-size: 1.4rem;
+  }
+}
+
+/* 1. amazing supermarket */
+
+header {
+  nav {
+    .menu--select__city {
+      .menu {
+        .nav__item__1281 {
+          display: flex !important;
+        }
+      }
     }
   }
-
+}

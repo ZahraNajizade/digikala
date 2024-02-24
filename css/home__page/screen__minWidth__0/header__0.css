@@ -1,0 +1,68 @@
+header{
+    box-shadow: 0 1px 0 rgba(0,0,0,.14),0 2px 0 rgba(0,0,0,.05);
+    
+    /* line 1 : header picture */
+    .header__picture__wFull{
+        
+        div{
+            height: 35px;
+            & img{
+                width: var(--full-width);
+                height: var(--full-width);
+                object-fit:cover;
+                object-position: center; 
+            }
+        } 
+    }
+
+    .container__wFull{
+
+        .searchbar--logo--login{
+            display: none;
+        }
+
+        .searchbar__0{
+            padding: 8px;
+
+            > div{
+                padding: 0 8px;
+                display: flex;
+                align-items: center;
+                height: 44px;
+                background-color: #f0f0f1;
+                border-radius: 8px;
+
+                .search__icon{
+                    height: 24px;
+                }
+
+                .searchbar__text{
+                    padding: 0 8px;
+                    display: flex;
+                    align-items: center;
+                    gap: 8px;
+                    width: 100%;
+
+                    span{
+                        font-size: 1.3rem;
+                        font-weight: 400;
+                        line-height: 2.15;
+                        color: #81858b;
+                    }
+
+                    .digikala__image img{
+                        width: 90px;
+                        height: 24px;
+                        display: block;
+                    }
+                }
+            }
+        }
+    }
+
+    nav{
+        .menu--select__city{
+            display: none;
+        }
+    }
+}
