@@ -3,7 +3,6 @@
     padding-top: 16px;
     display: flex;
     overflow: scroll;
-    max-width: 1336px;
     scrollbar-width: none;
     
 
@@ -69,4 +68,8 @@
       margin-right: 8px;
     }
   }
+}
+
+.container__stories__1024{
+  display: none;
 }
