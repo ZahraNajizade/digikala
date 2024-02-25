@@ -1,0 +1,25 @@
+
+.container__stories__1024{
+
+    .stories{
+        position: relative;
+
+        .swiper {
+            width: 100%;
+            height: 100%;
+      
+            .swiper-slide {
+              
+              display: flex;
+
+              .story__link{
+                width: 84px;
+                margin: 0;
+              }
+            }
+        }
+    }
+}
+    
+
+    
