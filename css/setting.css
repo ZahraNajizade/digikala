@@ -17,11 +17,20 @@ body {
   font-size: 10px;
 }
 
+/* for home__page */
 .main__columns__space {
   display: flex;
   flex-flow: column;
   row-gap: 16px;
 }
+
+/* for amazing page */
+.main__columns{
+  display: flex;
+  flex-flow: column;
+}
+ 
+
 
 @font-face {
   font-family: NUMBER__IRANYEKAN;

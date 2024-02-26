@@ -1,0 +1,32 @@
+.container__amazing__categories__1024 {
+  position: relative;
+  width: 100%;
+  display: block;
+  margin: 0 auto;
+
+  .amazing__categories {
+    .swiper {
+      width: 100%;
+      height: 100%;
+
+      .swiper-slide {
+        width: 122px;
+        display: flex;
+
+        .amazing__category__link{
+          .amazing__category__image{
+            img{
+              width: 90px;
+              height: 90px;
+            }
+          }
+        }
+      }
+    }
+  }
+}
+
+
+.container__amazing__categories__0{
+  display: none;
+}
