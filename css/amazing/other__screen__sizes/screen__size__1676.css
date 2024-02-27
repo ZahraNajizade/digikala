@@ -5,6 +5,15 @@
 */
 
 /* 1. digikala__Services__main */
-.container__amazing__categories__1024{
-        max-width: 1676px;
+.container__amazing__categories__1024 {
+  max-width: 1676px;
 }
+
+/* 1. digikala__Services__main */
+.container__amazing__big__slider {
+  max-width: 1676px;
+  margin: 0 auto;
+  padding: 0 16px;
+}
+
+

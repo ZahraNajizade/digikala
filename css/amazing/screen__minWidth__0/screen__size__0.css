@@ -1,0 +1,99 @@
+/* 
+         css list :
+        1. digikala__Services__main
+        1. banners
+*/
+
+/* 1. digikala__Services__main */
+.container__amazingPage__supermarket {
+  max-width: 1676px;
+  width: 100%;
+  margin: 0 auto;
+  padding: 0 16px;
+}
+
+/* 1. digikala__Services__main */
+.container__amazing__tomorrow {
+  max-width: 1676px;
+  width: 100%;
+  margin: 0 auto;
+  padding: 0 16px;
+
+  .amazing__supermarket {
+    margin-top: 16px;
+    background-color: #f5f5f5;
+    background-image: linear-gradient(
+      267.6deg,
+      rgba(230, 18, 61, 0.1),
+      hsla(0, 0%, 95%, 0)
+    );
+    background-size: 340px;
+    background-repeat: no-repeat;
+    background-position: 100%;
+
+    .amazing__supermarket__bgimage {
+      display: none;
+    }
+
+    .amazing__supermarket__bgcolor {
+      background: (
+        135deg,
+        rgba(239, 57, 78, 0.1) 0,
+        rgba(242, 242, 242, 0) 100%
+      );
+    }
+
+    .top__div {
+      .amazing__supermarket__title {
+        display: flex;
+        justify-content: space-between;
+        align-items: start;
+        .amazing__tomorrow__image--text {
+          display: flex;
+          flex-direction: column;
+
+          .amazing__tomorrow__image img {
+            margin: 0 8px;
+            width: 146px;
+            height: 20px;
+            display: block;
+          }
+
+          span {
+            margin: 0 8px;
+            font-size: 1.1rem;
+            font-weight: 700;
+            line-height: 2.17;
+            color: #0c0c0c;
+            display: block;
+          }
+        }
+
+        .timer {
+          display: flex;
+          font-size: 1.3rem;
+          font-weight: 700;
+          line-height: 2.15;
+          color: #23254e;
+          text-align: center;
+          gap: 4px;
+
+          .time {
+            width: 28px;
+            height: 28px;
+            background-color: #fff;
+            border-radius: 4px;
+          }
+        }
+      }
+
+      .amazing__supermarket__products {
+        .amazing__supermarket__other {
+          span {
+            color: #ef394e !important;
+          }
+        }
+      }
+    }
+  }
+}

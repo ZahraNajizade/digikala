@@ -1,5 +1,14 @@
 @import "./best__selling/main.css";
 @import "./home__page/main.css";
 @import "./login/main.css";
-@import "./amazing/main.css";
 @import "./setting.css";
+
+/* 
+amazing/main.css
+چون بیشتر قسمت ها شبیه صفحه اصلیه
+برای همین اگر بخوایم از 
+!important 
+استفاده نکنیم باید اخری باشه  
+*/
+
+@import "./amazing/main.css";

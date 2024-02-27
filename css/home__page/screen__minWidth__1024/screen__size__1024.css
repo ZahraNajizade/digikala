@@ -122,6 +122,7 @@
 
   .amazing__supermarket {
     padding: 16px 40px 12px;
+    min-height: 110px;
 
     .top__div {
       display: flex;

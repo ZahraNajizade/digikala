@@ -5,4 +5,33 @@
         1. banners
 */
 
-/* 1. big__slider */
+.container__amazing__tomorrow {
+  .amazing__supermarket {
+    .amazing__supermarket__bgimage {
+      background-image: url(../../../image/svg/amazing__tomorrow__bg.svg);
+      display: block;
+    }
+
+    .top__div {
+      align-items: center;
+      .amazing__supermarket__title {
+        display: flex;
+        min-width: 356px;
+        height: fit-content;
+        justify-content: space-between;
+        align-items: start;
+        .amazing__tomorrow__image--text {
+          .amazing__tomorrow__image img {
+            margin: 0 20px;
+            width: 206px;
+            height: 28px;
+          }
+
+          span {
+            margin: 0 20px;
+          }
+        }
+      }
+    }
+  }
+}
