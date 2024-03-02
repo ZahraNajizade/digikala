@@ -1,0 +1,179 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .v{
+            border: 2px solid black;
+            width: 100px;
+            height: 40px;
+            border-radius: 20px;
+            display: flex;
+            align-items: center;
+
+            .c{
+                background-color: black;
+                width: 35px;
+                height: 35px;
+                border-radius: 50%;
+            }
+        }
+
+        input[type=checkbox]{
+            display: none;
+        }
+
+        input[type=checkbox]:checked ~ label .v {
+            background-color: blue;
+            
+            .c{
+                transform: translateX(50px);
+            }
+        }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+        /* ............................................................ */
+
+        .xx{
+            height: 1000px;
+            background-color: aqua;
+            width: 100%;
+        }
+
+        .aa{
+            width: 100px;
+            height: 9999px;
+            background-color: blueviolet;
+
+            .bb{
+                width: 100px;
+                height: 100px;
+                background-color: red;
+                position: sticky;
+                top: 0;
+            }
+        }
+
+
+        /* ............................................................ */
+
+        .xxx{
+            height: 1000px;
+            background-color: aqua;
+            width: 100%;
+        }
+
+        .lll{
+
+            overflow-x: scroll;
+            width: 100%;
+            position: relative;
+
+            .bbb{
+                position: absolute;
+                inset: 0;
+
+                .mmm{
+                    width: 50px;
+                    height: 50px;
+                    background-color: red;
+                }
+            }
+            .aaa{
+            
+            display: flex;
+            background-color: blueviolet;
+            overflow-x: scroll;
+            position: relative;
+
+            
+
+            
+
+            .qqq{
+                width: 500px;
+                height: 50px;
+                background-color: teal;
+                border-radius: 50%;
+            }
+        }
+        }
+        
+    </style>
+</head>
+<body>
+    <div class="x">
+        <input type="checkbox" id="a">
+        <label for="a">
+            <div class="v">
+                <div class="c"></div>
+            </div>
+        </label>
+        
+    </div>
+
+
+
+
+
+
+
+
+
+
+    <!-- ...................................................... -->
+
+
+    <div class="xx"></div>
+    <div class="aa">
+        <div class="bb"></div>
+    </div>
+    <div class="xx"></div>
+
+
+
+
+    <!-- ...................................................... -->
+
+
+    <div class="xxx"></div>
+    <div class="lll">
+        <div class="bbb">
+            <div class="mmm"></div>
+        </div>
+        <div class="aaa">
+            
+            <div class="qqq"></div>
+            <div class="qqq"></div>
+            <div class="qqq"></div>
+            <div class="qqq"></div>
+            <div class="qqq"></div>
+            <div class="qqq"></div>
+            <div class="qqq"></div>
+            <div class="qqq"></div>
+            <div class="qqq"></div>
+            <div class="qqq"></div>
+            <div class="qqq"></div>
+            <div class="qqq"></div>
+            <div class="qqq"></div>
+            <div class="qqq"></div>
+        </div>
+    </div>
+    <div class="xxx"></div>
+</body>
+</html>

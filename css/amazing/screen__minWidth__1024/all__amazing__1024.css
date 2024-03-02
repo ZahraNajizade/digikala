@@ -1,0 +1,189 @@
+.container__all__amazing{
+
+    .all__amazing{
+
+        .all__amazing__main{
+
+            .slide__box{
+                width: 270px;
+                height: 9999px;
+                display: block;
+
+                .slide__bar{
+                    position: sticky;
+                    /* transform: translatey(188px); */
+                    top: 0px;
+                    border: 1px solid #e0e0e2;
+                    background-color: #fff;
+                    border-radius: 8px;
+
+                    .slide__bar__headline{
+                        padding: 16px 20px;
+                        display: flex;
+                        align-items: center;
+                        justify-content: space-between;
+
+                        p{
+                            font-size: 1.9rem;
+                            font-weight: 700;
+                            line-height: 2.1;
+                            color: #3f4064;
+                        }
+
+                        span{
+                            font-size: 1.2rem;
+                            font-weight: 700;
+                            line-height: 2.17;
+                            color: #19bfd3;
+                        }
+                    }
+
+                    .slide__bar__line{
+                        padding: 0 20px;
+
+                        input[type=checkbox]{
+                            display: none;
+                        }
+
+                        input[id=supermarket]:checked ~ label[for=supermarket] {
+                            .checkbox__slider{
+                                border-color: #19bfd3;
+                                background-color: #19bfd3;
+                                justify-content: right;
+
+                                .circle{
+                                    background-color: #fff;
+                                }
+                            }
+                        }
+
+                        input[id=send__today]:checked ~ label[for=send__today] {
+                            .checkbox__slider{
+                                border-color: #19bfd3;
+                                background-color: #19bfd3;
+                                justify-content: right;
+
+                                .circle{
+                                    background-color: #fff;
+                                }
+                            }
+                        }
+
+                        input[id=send__seller]:checked ~ label[for=send__seller] {
+                            .checkbox__slider{
+                                border-color: #19bfd3;
+                                background-color: #19bfd3;
+                                justify-content: right;
+
+                                .circle{
+                                    background-color: #fff;
+                                }
+                            }
+                        }
+
+                        input[id=available__products]:checked ~ label[for=available__products] {
+                            .checkbox__slider{
+                                border-color: #19bfd3;
+                                background-color: #19bfd3;
+                                justify-content: right;
+
+                                .circle{
+                                    background-color: #fff;
+                                }
+                            }
+                        }
+
+                        input[id=products__stock]:checked ~ label[for=products__stock] {
+                            .checkbox__slider{
+                                border-color: #19bfd3;
+                                background-color: #19bfd3;
+                                justify-content: right;
+
+                                .circle{
+                                    background-color: #fff;
+                                }
+                            }
+                        }
+
+                        
+                        
+                        > label{
+                            padding: 12px 0;
+                            display: grid;
+                            grid-template-columns: auto  auto;
+                            justify-content: space-between;
+                            align-items: center;
+                            border-bottom: 1px solid #f0f0f1 ;
+
+                            span{
+                                color: #3f4064;
+                                font-size: 1.5rem;
+                                font-weight: 700;
+                                line-height: 2.15;
+                            }
+
+                            .slide__bar__line__text{
+                                display: flex;
+                                align-items: center;
+
+                                .slide__bar__line__ticon{
+                                    height: 18px;
+                                    margin-right: 8px;
+                                }
+
+
+                            }
+
+                            .checkbox__slider{
+                                border: 2px solid #a1a3a8;
+                                border-radius: 9999px;
+                                display: flex;
+                                justify-content: left;
+                                padding: 3px;
+                                width: 40px;
+                                min-width: 32px;
+                                height: 20px;
+                                margin-right: 16px;
+                                transition: all 0.2s ease-out;
+
+                                .circle{
+                                    width: 10px;
+                                    height: 10px;
+                                    background-color: #a1a3a8;
+                                    border-radius: 50%;
+                                    transition: all 0.2s ease-out;
+                                }
+                            }
+
+                            .slide__bar__line__text2{
+                                font-size: 1.4rem;
+                                font-weight: 400;
+                                line-height: 2.15;
+                                color: #81858b;
+                                height: 100%;
+                            }
+
+
+
+                            .slide__bar__line__icon{
+                                height: 24px;
+                            }
+                        }
+                        
+                        .last{
+                            border: none;
+                        }
+
+                        
+                    }
+                }
+            }
+        }
+    }
+}
+
+
+
+
+
+

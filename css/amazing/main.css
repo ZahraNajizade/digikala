@@ -3,6 +3,8 @@
 screen and (min-width: 0px);
 @import "./screen__minWidth__0/screen__size__0.css"
 screen and (min-width: 0px);
+@import "./screen__minWidth__0/all__amazing__0.css"
+screen and (min-width: 0px);
 
 
 
@@ -10,6 +12,8 @@ screen and (min-width: 0px);
 @import "./screen__minWidth__1024/screen__size__1024.css" 
 screen and (min-width: 1024px);
 @import "./screen__minWidth__1024/amazing__category__1024.css" 
+screen and (min-width: 1024px);
+@import "./screen__minWidth__1024/all__amazing__1024.css" 
 screen and (min-width: 1024px);
 
 
