@@ -3,11 +3,13 @@
     .all__amazing{
 
         .all__amazing__main{
+            position: relative;
+            width: 100%;
 
             .slide__box{
                 width: 270px;
-                height: 9999px;
                 display: block;
+                position: absolute;right: 0;
 
                 .slide__bar{
                     position: sticky;
@@ -16,6 +18,7 @@
                     border: 1px solid #e0e0e2;
                     background-color: #fff;
                     border-radius: 8px;
+                    
 
                     .slide__bar__headline{
                         padding: 16px 20px;
@@ -178,8 +181,35 @@
                     }
                 }
             }
+
+            .all__amazing__products{
+                display: flex;
+                flex-direction: column;
+                width: calc(100% - 270px);
+                
+                
+
+            }
         }
     }
+}
+
+
+
+
+
+/* ............................................ */
+
+section {
+    height: 100%;
+    position: absolute;
+    background-color: #fff;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    width: 100%;
+    height: 100%;
+    left: 0;
+
 }
 
 

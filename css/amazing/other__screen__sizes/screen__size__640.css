@@ -2,23 +2,13 @@
 
     .all__amazing{
 
-        .all__amazing__title{
-            padding: 12px 0;
-
-            p{
-                font-size: 1.6rem;
-                font-weight: 700;
-                line-height: 2.1;
-            }
-        }
-
         .all__amazing__main{
 
-            .slide__box{
-                display: none;
+            .all__amazing__products{
+                display: flex;
+                flex-direction: column;
             }
         }
-
     }
 }
 
@@ -32,15 +22,23 @@ section {
     height: 100%;
     position: absolute;
     background-color: #fff;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
     width: 100%;
     height: 100%;
+    left: 0;
 
     .product {
       .product__link {
         text-decoration: none;
+        height: 100%;
+        display: block;
 
         & article {
-          padding: 8px 0;
+          padding: 12px 8px;
+          display: flex;
+          flex-direction: column;
+          
 
           .headline__product {
             margin-bottom: 4px;
@@ -97,36 +95,17 @@ section {
           .product__information {
             position: relative;
             display: flex;
-
-            .product__number {
-              display: flex;
-              justify-content: center;
-              align-items: center;
-              z-index: 5;
-              position: absolute;
-              top: 0;
-              right: 0;
-              border-radius: 8px;
-              background-color: #19bfd3;
-              min-width: 37px;
-              height: 28px;
-
-              span {
-                font-size: 1.4rem;
-                font-weight: 800;
-                line-height: 2.1;
-                color: #fff;
-              }
-            }
+            flex-direction: column;
 
             .product__image__information {
-              margin-left: 12px;
+              margin-left: 0;
               position: relative;
               display: flex;
+              justify-content: center;
 
               .product__picture {
-                width: 118px;
-                height: 118px;
+                width: 240px;
+                height: 240px;
 
                 .product__pic {
                   width: inherit;
@@ -140,12 +119,16 @@ section {
                 }
 
                 .product__coloring {
-                  margin-top: 8px;
-                  width: 118px;
-                  height: 8px;
+                  position: absolute;
+                  top: 0;
+                  left: 0;
                   display: flex;
+                  flex-direction: column;
                   gap: 8px;
-                  justify-content: center;
+                  padding: 4px;
+                  margin: 0;
+                  width: auto;
+                  height: auto;
 
                   span,
                   div {
@@ -153,6 +136,7 @@ section {
                     width: 8px;
                     height: 8px;
                     border-radius: 50%;
+                    
                   }
                 }
 
@@ -179,7 +163,7 @@ section {
             .product__text__information {
               display: flex;
               flex-direction: column;
-              width: calc(100% - 118px);
+              width: 100%;
 
               .free__send {
                 margin-bottom: 4px;
