@@ -22,6 +22,8 @@ screen and (min-width: 0px);
 screen and (min-width: 0px);
 @import "./screen__minWidth__0/story__0.css" 
 screen and (min-width: 0px);
+@import "./screen__minWidth__0/amazing__offer__0.css" 
+screen and (min-width: 0px);
 
 
 
@@ -43,6 +45,8 @@ screen and (min-width: 1024px);
 @import "./screen__minWidth__1024/footer__1024.css" 
 screen and (min-width: 1024px);
 @import "./screen__minWidth__1024/story__1024.css" 
+screen and (min-width: 1024px);
+@import "./screen__minWidth__1024/amazing__offer__1024.css" 
 screen and (min-width: 1024px);
 
 

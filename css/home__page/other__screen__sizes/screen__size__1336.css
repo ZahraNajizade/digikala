@@ -65,3 +65,10 @@
   max-width: 1336px;
   margin: 0 auto;
 }
+
+/* 1. amazing offer */
+.container__amazing__offer {
+  max-width: 1336px;
+  padding: 0;
+  margin: 0 auto;
+}

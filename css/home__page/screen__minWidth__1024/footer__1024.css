@@ -411,6 +411,7 @@ footer {
 
   .container__digikala__partners {
     background-color: #f0f0f1;
+    width: 100%;
 
     .digikala__partners {
       max-width: 1676px;
