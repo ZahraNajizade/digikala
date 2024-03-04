@@ -1,0 +1,65 @@
+.container__digikala__offer {
+  position: relative;
+
+  .digikala__offer {
+
+    .digikala__offer__title {
+        padding: 16px 0;
+
+        h2 {
+          text-align: center;
+        }
+    }
+
+
+    .digikala__offer__items {
+      .swiper {
+        width: 100%;
+        height: 100%;
+
+        .swiper-slide {
+          display: flex;
+          justify-content: center;
+          align-items: center;
+          flex-flow: column;
+
+          .digikala__offer__link {
+            .digikala__offer__item {
+              padding: 16px 4px;
+              display: flex;
+              justify-content: center;
+              align-items: center;
+              flex-flow: column;
+
+              .digikala__offer__product__img {
+                padding: 12px;
+                background-color: #f0f0f1;
+                border-radius: 50%;
+                overflow: hidden;
+                width: 84px;
+                height: 84px;
+
+                img {
+                  width: 100%;
+                  height: 100%;
+                  object-fit: contain;
+                }
+              }
+
+              h4 {
+                margin-top: 8px;
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+}
+
+/* .swiper-slide img {
+  display: block;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+} */

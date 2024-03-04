@@ -22,12 +22,17 @@ body {
   display: flex;
   flex-flow: column;
   row-gap: 16px;
+
 }
 
 /* for amazing page */
 .main__columns{
   display: flex;
   flex-flow: column;
+}
+
+main{
+  background-color: #fff;
 }
  
 

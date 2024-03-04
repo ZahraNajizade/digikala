@@ -24,6 +24,8 @@ screen and (min-width: 0px);
 screen and (min-width: 0px);
 @import "./screen__minWidth__0/amazing__offer__0.css" 
 screen and (min-width: 0px);
+@import "./screen__minWidth__0/digiplus__0.css" 
+screen and (min-width: 0px);
 
 
 
@@ -34,6 +36,15 @@ screen and (min-width: 0px);
 
 @import "./screen__minWidth__0/0.css" 
 screen and (min-width: 0px);
+
+
+
+
+
+
+/* screen size   min-width(768) */
+@import "./other__screen__sizes/screen__size__768.css" 
+screen and (min-width: 768px);
 
 
 
@@ -59,6 +70,9 @@ screen and (min-width: 1281px);
 /* screen size   min-width(1336) */
 @import "./other__screen__sizes/screen__size__1336.css" 
 screen and (min-width: 1336px);
+
+
+
 
 
 
