@@ -1,0 +1,42 @@
+.container__digikala__offer__1024 {
+    position: relative;
+    display: block;
+  
+    .digikala__offer {
+  
+      .digikala__offer__items {
+        display: block;
+        .swiper {
+          width: 100%;
+          height: 100%;
+  
+          .swiper-slide {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            flex-flow: column;
+            width: calc(100% / 7);
+
+
+            .digikala__offer__link {
+                width: 100%;
+                min-width: 180px;
+            }
+            
+            .digikala__offer__link:nth-child(n + 2) .digikala__offer__item{
+            border-top: 1px solid #f0f0f1;
+            }
+            &:nth-last-child(1) .digikala__offer__link .digikala__offer__item{
+            border-left: none ;
+            }
+            
+
+          }
+        }
+      }
+    }
+  }
+
+.container__digikala__offer__0{
+    display: none;
+}
