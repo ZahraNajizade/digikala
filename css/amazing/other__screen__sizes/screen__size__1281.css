@@ -4,3 +4,17 @@
 */
 
 /* 1. big__slider */
+.container__all__amazing {
+  .all__amazing {
+    .all__amazing__main {
+      .all__amazing__products {
+        .products {
+          section {
+            display: grid;
+            grid-template-columns: repeat(3, 1fr);
+          }
+        }
+      }
+    }
+  }
+}

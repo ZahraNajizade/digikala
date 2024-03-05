@@ -425,10 +425,12 @@ header {
       display: flex;
       justify-content: space-between;
       align-items: center;
+      position: relative;
 
       .menu {
         display: flex;
         align-items: center;
+        position: relative;
 
         .categories__menu {
           display: flex;
@@ -455,6 +457,8 @@ header {
               color: #3f4064;
             }
           }
+
+
 
           .dropdown__menu{
             height: 0;
@@ -625,19 +629,9 @@ header {
             }
           }
 
-          .dropdown__menu__bg{
-            position: absolute;
-            display: none;
-            background-color: black;
-            opacity: 0.3;
-            z-index: 9;
-            height: 100vh;
-            width: 100vw;
-            right: -16px;
-            top: 40px;
-
-          }
+          
         }
+
 
         .nav__item {
           padding: 0 12px;
@@ -674,7 +668,41 @@ header {
           display: flex;
           background-color: rgb(224, 224, 226);
         }
+
+        /* .hover__under__item{
+          position: absolute;
+          bottom: 0;
+          background-color: #ef394e;
+          height: 2px;
+          border-radius: 8px 8px 0 0;
+          z-index: 19999;
+          transition: all 5s ease;
+        }
+
+        .categories__menu:hover ~ .hover__under__item{
+          width: 142.05px;
+          transform: translate3d(819.95 , 0 ,0);
+        }
+
+        .nav__item:nth-child(3):hover {
+          border-bottom:2px solid #ef394e;
+        } */
       }
+
+      .dropdown__menu__bg{
+        position: absolute;
+        display: none;
+        background-color: black;
+        opacity: 0.3;
+        z-index: 9;
+        height: 100vh;
+        right: 0;
+        top: 40px;
+        left: 0;
+
+      }
+
+      
 
       .select__city {
         height: 40px;
@@ -704,7 +732,7 @@ header {
   }
 }
 
-:has(.categories__menu__link:hover){
+:has(.categories__menu:hover){
   body{
     overflow: hidden;
 

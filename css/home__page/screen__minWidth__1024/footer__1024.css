@@ -445,6 +445,7 @@ footer {
     }
   }
 
+
   /* input{
     display: none;
   }
@@ -469,4 +470,8 @@ footer {
   input[id="close"]:checked{
     display: none;
   } */
+}
+
+.container__footer__0{
+  display: none;
 }
