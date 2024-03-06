@@ -17,3 +17,11 @@
         }
     }
 }
+
+
+.product:nth-child(3n){
+                  border-left: 1px solid #f0f0f1 !important;
+                }
+.product:nth-child(4n){
+                  border-left: none !important;
+                }

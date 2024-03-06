@@ -11,6 +11,7 @@
 
           
               .product {
+                border-left: 1px solid #f0f0f1;
                 
                 .product__link {
                   & article {
@@ -122,8 +123,8 @@
                   }
                 }
 
-                .product:nth-child(2n - 1){
-                  border-left: 1px solid #f0f0f1;
+                .product:nth-child(2n){
+                  border-left: none;
                 }
 
                 .product:hover{

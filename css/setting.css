@@ -78,3 +78,49 @@ main{
   background-color: #f0f0f1;
 }
 
+
+
+
+/* swiper */
+
+.swiper-button-prev,
+.swiper-rtl .swiper-button-next {
+  width: 40px !important;
+  height: 40px !important;
+  background-color: #fff;
+  border: 1px solid #c0c2c5;
+  border-radius: 50%;
+}
+
+.swiper-button-prev:after,
+.swiper-rtl .swiper-button-next:after {
+  font-size: 13px !important;
+  line-height: 11.41px !important;
+  color: #3f4064;
+  font-weight: 900 !important;
+}
+
+.swiper-button-next.swiper-button-disabled, .swiper-button-prev.swiper-button-disabled{
+  opacity: 0 !important;
+}
+
+
+/* color */
+.purple__1 {
+  background-color: rgb(156, 39, 177);
+}
+.pink__1 {
+  background-color: rgb(255, 128, 171);
+}
+.red__1 {
+  background-color: rgb(244, 67, 54);
+}
+.yellow__1 {
+  background-color: rgb(210, 255, 0);
+}
+.black__1 {
+  background-color: rgb(33, 33, 33);
+}
+
+
+

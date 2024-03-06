@@ -1,2 +1,4 @@
-@import "./setting.css";
-@import "./login.css";
+@import "./login__0.css" 
+screen and (min-width: 0px);
+@import "./login__1024.css" 
+screen and (min-width: 1024px);

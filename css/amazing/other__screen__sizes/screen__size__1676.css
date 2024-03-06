@@ -52,3 +52,46 @@
 }
 
 
+/* header */
+header {
+
+  .fixed__header {
+
+    
+
+    .container__wFull {
+      width: 1676px;
+      margin: 0 auto;
+    }
+
+  }
+
+  nav{
+    width: 100%;
+    .menu--select__city {
+      width: 100%;
+      padding: 0 calc((100% - 1676px) / 2);
+    }
+  }
+}
+
+/* chosen amazing */
+.container__chosen__amazing{
+  width: 1676px;
+  margin: 0 auto;
+  border-radius: 8px;
+  padding: 0 16px;
+
+  .chosen__amazing{
+    border-radius: 8px;
+  }
+}
+
+
+
+.product:nth-child(4n){
+                  border-left: 1px solid #f0f0f1 !important;
+                }
+.product:nth-child(5n){
+                  border-left: none !important;
+                }

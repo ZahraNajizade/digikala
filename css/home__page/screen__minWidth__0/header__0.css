@@ -1,10 +1,13 @@
 header{
+    box-shadow: 0 1px 0 rgba(0, 0, 0, 0.14), 0 2px 0 rgba(0, 0, 0, 0.05);
+
     
     .fixed__header{
         position:fixed;
         background-color: #fff;
-        z-index: 20;
-        box-shadow: 0 1px 0 rgba(0, 0, 0, .14), 0 2px 0 rgba(0, 0, 0, .05);
+        z-index: 25;
+        width: 100%;
+        
 
         /* line 1 : header picture */
     .header__picture__wFull{
@@ -29,6 +32,7 @@ header{
 
         .searchbar__0{
             padding: 8px;
+            box-shadow: 0 1px 0 rgba(0, 0, 0, 0.14), 0 2px 0 rgba(0, 0, 0, 0.05);
             
             
 
@@ -67,6 +71,10 @@ header{
             }
         }
     }
+    }
+
+    .fixed__header__amazing__page{
+        display: none ;
     }
 
     nav{

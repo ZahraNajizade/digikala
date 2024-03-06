@@ -13,14 +13,16 @@
                 width: 270px;
                 position: relative;
                 display: flex;
+                
 
                 .slide__bar{
                     position: sticky;
-                    /* transform: translatey(188px); */
+                    
                     top: 0px;
                     border: 1px solid #e0e0e2;
                     background-color: #fff;
                     border-radius: 8px;
+                    height: fit-content;
                     
 
                     .slide__bar__headline{
