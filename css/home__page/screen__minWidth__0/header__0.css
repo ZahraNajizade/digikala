@@ -1,8 +1,14 @@
 header{
     
-    /* line 1 : header picture */
+    .fixed__header{
+        position:fixed;
+        background-color: #fff;
+        z-index: 20;
+        box-shadow: 0 1px 0 rgba(0, 0, 0, .14), 0 2px 0 rgba(0, 0, 0, .05);
+
+        /* line 1 : header picture */
     .header__picture__wFull{
-        
+
         div{
             height: 35px;
             & img{
@@ -16,12 +22,15 @@ header{
 
     .container__wFull{
         
+        
         .searchbar--logo--login{
             display: none;
         }
 
         .searchbar__0{
             padding: 8px;
+            
+            
 
             > div{
                 padding: 0 8px;
@@ -58,6 +67,7 @@ header{
             }
         }
     }
+    }
 
     nav{
         .menu--select__city{
@@ -65,3 +75,5 @@ header{
         }
     }
 }
+
+

@@ -56,6 +56,10 @@
 .container__your__visit {
   padding: 0 16px;
 
+  .your__visit:nth-child(-n + 3){
+    border-left: 1px solid #e0e0e2;
+  }
+
   .your__visit__products {
     border: 1px solid #e0e0e2;
     border-radius: var(--large-radius);
@@ -102,6 +106,7 @@
 /* 1. readings */
 .container__readings {
   padding: 0 16px;
+  margin-bottom: 0;
 
   .readings {
     .reading__items {
@@ -273,15 +278,22 @@
 
 /* 1. header */
 header {
+  background-color: #fff;
+
 
   .fixed__header{
     position: fixed;
     top: 0;
     background-color: #fff;
     z-index: 15;
+    box-shadow: none;
+
+    
+    
     
     /* line 1 : header picture */
     .header__picture__wFull {
+
       div {
         height: 60px;
       }
@@ -290,6 +302,8 @@ header {
     /* line 2 : search bar */
     .container__wFull {
       width: var(--full-width);
+
+      
 
 
       
@@ -416,11 +430,14 @@ header {
     max-width: 1676px;
     margin: 0 auto;
     background-color: #fff;
+    position: relative;
 
-    box-shadow: 0 1px 0 rgba(0,0,0,.14),0 2px 0 rgba(0,0,0,.05);
 
     .menu--select__city {
       white-space: nowrap;
+
+
+    box-shadow: 0 1px 0 rgba(0,0,0,.14),0 2px 0 rgba(0,0,0,.05);
       padding: 0 16px;
       display: flex;
       justify-content: space-between;
@@ -470,6 +487,7 @@ header {
             border-bottom-left-radius: 8px;
             border-bottom-right-radius: 8px;
             overflow: hidden;
+            max-height: 711.76px;
 
 
             .dropdown__categories__menu{

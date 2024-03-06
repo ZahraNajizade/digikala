@@ -1,6 +1,7 @@
 .container__stories {
   .stories {
-    padding-top: 16px;
+    /* برای پوزیشن فیکس هدر */
+    padding-top: calc(95px + 16px);
     display: flex;
     overflow: scroll;
     scrollbar-width: none;

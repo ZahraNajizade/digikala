@@ -136,6 +136,22 @@
   display: none;
 }
 
+/* amazing header */
+.amazing__header__0{
+  display: none;
+}
+
+
+.big__slider__head{
+    display: block;
+    height: 64px;
+    width: 100%;
+    background-image: url(../../../image/svg/big__slider__header.svg), linear-gradient(to top, #ef4056, #ef394e);
+    background-position-x: center;
+    background-repeat: no-repeat;
+    background-size: contain;
+  }
+
 
 
 

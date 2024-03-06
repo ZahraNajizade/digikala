@@ -94,8 +94,8 @@
                             gap: 8px;
                             padding: 4px;
                             margin: 0;
-                            width: auto;
-                            height: auto;
+                            width: auto !important;
+                            height: auto !important;
           
                             span,
                             div {

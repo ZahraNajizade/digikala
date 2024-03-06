@@ -1,7 +1,7 @@
 .container__footer__0{
     position: fixed;
     z-index: 20;
-    bottom: 0;
+    bottom: -1px;
     width: 100%;
 
     .fixed__download{

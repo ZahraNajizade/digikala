@@ -77,6 +77,10 @@
 
           .bestselling__product__text {
             display: flex;
+            border-bottom: 1px solid #f0f0f1;
+            height: 86px;
+            align-items: center;
+
 
             p {
               font-size: 1.1rem;
@@ -90,6 +94,11 @@
               text-overflow: ellipsis;
             }
           }
+
+          &:nth-child(3) .bestselling__product__text{
+              border-bottom: none !important;
+            }
+
         }
 
         .bestselling__product:nth-child(n + 2) {

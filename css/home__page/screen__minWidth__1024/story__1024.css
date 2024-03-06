@@ -5,6 +5,7 @@
 
   .stories {
     position: relative;
+    padding-top: 16px;
 
     .swiper {
       .swiper-slide {

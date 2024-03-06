@@ -2,6 +2,8 @@
   position: relative;
   height: 268px;
 
+  
+
   .big__slider__swiper {
     width: 100%;
     height: 100%;
@@ -21,6 +23,10 @@
     }
   }
 }
+
+.big__slider__head{
+    display: none;
+  }
 
 .container__amazing__big__slider {
   .big__slider__swiper {
